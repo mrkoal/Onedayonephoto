@@ -16,18 +16,18 @@
 <body>
     
     <h3 class="headlink">
-        <a href="http://j.map.baidu.com/WzN7v" target="_blank">百度地图坐标：110.368831,21.280628</a>
+        <a href="http://j.map.baidu.com/WzN7v" target="_blank">百度地图坐标：110.368831,21.280628</a><!-- 修改点1.href里面的百度分享地址 2.百度地图坐标 -->
     </h3>
     <section>
         <figure>
-            <a href="weixin://viewimage/img/photo.jpg">
-                <img class="img" src="img/photo.jpg" alt="老街">
+            <a href="weixin://viewimage/http://mrkoal.github.io/Onedayonephoto/2014-08-17/img/photo_hd.jpg"><!-- 修改点3.2014-08-17 日期 (此处为微信点击浏览hd大图) -->
+                <img class="img" src="img/photo.jpg" alt="老街"><!-- 修改点4.可选alt 里面关于照片的描述 -->
             </a>
             <figcaption>
-                <h2 class="title">老街
+                <h2 class="title">老街<!-- 修改点5.片种? -->
                     <span class="date">
                         【每日一图】<br>
-                        2014年08月17日
+                        2014年08月17日<!-- 修改点6.日期 -->
                     </span>
                 </h2>
             </figcaption>
@@ -35,12 +35,12 @@
     </section>
     <article>
         <h1 class="title">
-            大通街·巷子深深
+            大通街·巷子深深<!-- 修改点7.标题 -->
             <span class="date">
-                图/周腾达<br>
+                图/周腾达<br><!-- 修改点8.作者s -->
                 文/李书歆
             </span>
-        </h1>  
+        </h1>  <!-- 修改点9.文章内容,每一段为1个 <p>...</P> -->
         <p>
             庭院深深深几许，杨柳堆烟，帘幕无重数。玉勒雕鞍游冶处，楼高不见章台路。雨横风狂三月暮，门掩黄昏，无计留春住。泪眼问花花不语，乱红飞过秋千去。
         </p>
@@ -56,10 +56,10 @@
     <footer>湛江往事书吧logo</footer>
 </body>
 <script>
-var imgUrl = "http://mrkoal.github.io/Onedayonephoto/img/photo.jpg";
-var lineLink = "http://mrkoal.github.io/Onedayonephoto/";
+var imgUrl = "http://mrkoal.github.io/Onedayonephoto/2014-08-17/img/photo.jpg";//修改点10.2014-08-17 日期,(此处为分享时显示的缩略图)
+var lineLink = "http://mrkoal.github.io/Onedayonephoto/2014-08-17/";//修改点11.2014-08-17 日期,(此处是分享的连接地址)
 var descContent = '庭院深深深几许，杨柳堆烟，帘幕无重数。玉勒雕鞍游冶处，楼高不见章台路。';
-var shareTitle = '老街大通街·巷子深深';
+var shareTitle = '老街大通街·巷子深深';//修改点12.分享时显示的简介,复制上面<p>第一段话
 var appid = 'wx053001e44f4785dc';
 function shareFriend() {
 WeixinJSBridge.invoke('sendAppMessage',{
