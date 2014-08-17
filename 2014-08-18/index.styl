@@ -148,13 +148,14 @@ em
 i
     font-style normal
 
-
 html
+    min-height 100%
     font-size 62.5%
     overflow-y auto
     -webkit-overflow-scrolling touch
 
 body
+    min-height 100%
     background url('img/bg.jpg') no-repeat
     background-size 100%  100%
 
@@ -184,8 +185,12 @@ article
     width 82%
     margin 0 auto
 
+article
+    padding-bottom 4em
+    
     p
         font-size 1.4em
+        line-height 1.8em
         text-indent 2em
 
 .title
@@ -199,12 +204,54 @@ article
     font-weight 400
 
 footer
+    width 100%
     height 4em
+    margin auto
     color rgba(0,0,0,0)
     background url('img/logo2.png') center no-repeat
     background-size 22% auto
 
 
 
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5) and (orientation:portrait),only screen and (min-device-pixel-ratio : 1.5)  and (orientation:portrait) 
+    //竖屏
+    .headlink
+        width 80%
+
+    .img,
+    figcaption, 
+    article
+        width 82%
+
+    footer
+        width 100%
+
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5) and (orientation:landscape),only screen and (min-device-pixel-ratio : 1.5)  and (orientation:landscape)
+    //横屏
+    .headlink
+        width 80%
+
+    .img,
+    figcaption, 
+    article
+        width 82%
+
+    footer
+        width 100%
+
+
+@media only screen and (min-width : 1224px)
+    //pc
+    .headlink
+        width 600px
+
+    .img,
+    figcaption, 
+    article
+        width 580px
+
+    footer
+        width 600px
 
 
