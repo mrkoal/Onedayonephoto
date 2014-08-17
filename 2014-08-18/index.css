@@ -253,5 +253,6 @@ footer {
   }
   footer {
     width: 600px;
+    background-size: 25% auto;
   }
 }
