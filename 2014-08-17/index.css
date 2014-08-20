@@ -162,7 +162,7 @@ html {
 body {
   min-height: 100%;
   background: url("img/bg.jpg") no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .headlink {
   width: 80%;
