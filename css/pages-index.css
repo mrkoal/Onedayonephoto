@@ -331,7 +331,7 @@ header {
 }
 @media only screen and (min-width: 1024px) {
   header {
-    height: 100px;
+    height: auto;
   }
   .container {
     width: 900px;
