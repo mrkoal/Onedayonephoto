@@ -1,0 +1,164 @@
+header
+    height 100px
+    background-color #000
+    background-color rgba(0,0,0,.5)
+    
+.container
+    position relative
+    width 900px
+    margin auto
+    height 100px
+
+.logo 
+    display inline-block
+    float left
+    width 235px
+    height 28px
+    margin 36px 10px 36px 0
+    background url(../img/bg-logo.png) no-repeat
+    background-size 235px 28px
+    text-indent: -9999px;
+    
+.nav-but
+    display none
+    
+.options
+    height 100px
+    text-align right
+    line-height 100px
+    font-size 14px
+    
+    a
+        padding 0 15px
+        color #000
+        &:hover,
+        &.selected
+            color #fff
+
+    
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5) and (orientation:portrait),only screen and (min-device-pixel-ratio : 1.5)  and (orientation:portrait) 
+   //竖屏
+    header
+        overflow hidden
+        height auto
+    .container
+        width 100%  
+        height 80px 
+    .logo
+        float left
+        width 220px
+        height 28px 
+        margin 26px 10px 26px 0
+        background url(../img/bg-logo-hd.png) center no-repeat
+        background-size 235px 28px
+    .nav-but
+        display block
+        position relative
+        float right
+        width 26px
+        height 26px
+        padding 27px
+        background-color #666
+        .nav-bar
+            display block
+            width 26px
+            height 3px
+            border-radius 3px
+            background-color #fff
+            &:after,
+            &:before
+                position relative
+                content " "
+                top 6px
+                display block
+                width 26px
+                height 3px
+                border-radius 3px
+                background-color #fff
+            &:before
+                top 18px
+                
+        
+    .options
+        display none
+        right 0
+        width 100%
+        height auto
+        float right
+        top 80px
+        background-color #666
+        z-index 10
+        line-height 58px
+        a
+            display block 
+            &:active
+                background-color #000
+
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5) and (orientation:landscape),only screen and (min-device-pixel-ratio : 1.5)  and (orientation:landscape)
+    //横屏
+    header
+        overflow hidden
+        height auto
+    .container
+        width 100%  
+        height 80px 
+    .logo
+        float left
+        width 220px
+        height 28px 
+        margin 26px 10px 26px 0
+        background url(../img/bg-logo-hd.png) center no-repeat
+        background-size 235px 28px
+    .nav-but
+        display block
+        position relative
+        float right
+        width 26px
+        height 26px
+        padding 27px
+        background-color #666
+        .nav-bar
+            display block
+            width 26px
+            height 3px
+            border-radius 3px
+            background-color #fff
+            &:after,
+            &:before
+                position relative
+                content " "
+                top 6px
+                display block
+                width 26px
+                height 3px
+                border-radius 3px
+                background-color #fff
+            &:before
+                top 18px
+                
+        
+    .options
+        display none
+        right 0
+        width 100%
+        height auto
+        float right
+        top 80px
+        background-color #666
+        z-index 10
+        line-height 58px
+        a
+            display block 
+            &:active
+                background-color #000
+        
+
+@media only screen and (min-width : 1024px)
+    //pc
+    header
+        height 100px
+    
+    .container
+        width 900px
+        height 100px
