@@ -161,43 +161,45 @@ html {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
-header {
-  height: 100px;
-  background-color: #000;
-  background-color: rgba(0,0,0,0.5);
-}
-.container {
-  position: relative;
-  width: 900px;
-  margin: auto;
-  height: 100px;
-}
-.logo {
-  display: inline-block;
-  float: left;
-  width: 235px;
-  height: 28px;
-  margin: 36px 10px 36px 0;
-  background: url("../img/bg-logo.png") no-repeat;
-  background-size: 235px 28px;
-  text-indent: -9999px;
-}
-.nav-but {
-  display: none;
-}
-.options {
-  height: 100px;
-  text-align: right;
-  line-height: 100px;
-  font-size: 14px;
-}
-.options a {
-  padding: 0 15px;
-  color: #000;
-}
-.options a:hover,
-.options a.selected {
-  color: #fff;
+@media screen and (max-width: 918px) {
+  header {
+    height: 100px;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.5);
+  }
+  .container {
+    position: relative;
+    width: 900px;
+    margin: auto;
+    height: 100px;
+  }
+  .logo {
+    display: inline-block;
+    float: left;
+    width: 235px;
+    height: 28px;
+    margin: 36px 10px 36px 0;
+    background: url("../img/bg-logo.png") no-repeat;
+    background-size: 235px 28px;
+    text-indent: -9999px;
+  }
+  .nav-but {
+    display: none;
+  }
+  .options {
+    height: 100px;
+    text-align: right;
+    line-height: 100px;
+    font-size: 14px;
+  }
+  .options a {
+    padding: 0 15px;
+    color: #000;
+  }
+  .options a:hover,
+  .options a.selected {
+    color: #fff;
+  }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait), only screen and (min-device-pixel-ratio: 1.5) and (orientation: portrait) {
   header {
@@ -327,15 +329,6 @@ header {
   }
   .options a:active {
     background-color: #000;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  header {
-    height: auto;
-  }
-  .container {
-    width: 900px;
-    height: 100px;
   }
 }
 body {
