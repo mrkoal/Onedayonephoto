@@ -397,6 +397,92 @@ header {
     background-color: #000;
   }
 }
+.lists {
+  width: 900px;
+  padding: 20px 0 143px;
+  margin: 0 auto;
+  background: url("../img/bg-bg.png") right bottom no-repeat;
+  background-size: 100px 143px;
+}
+.lists li {
+  display: inline-block;
+  width: 270px;
+  margin: 0 0 20px 27px;
+  vertical-align: top;
+}
+.lists .img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.lists a {
+  display: block;
+  color: #666;
+}
+.lists .title {
+  overflow: hidden;
+  width: 100%;
+  height: 1.4em;
+  font-size: 2.4em;
+  padding: 5px;
+  margin-bottom: 0.42em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.lists .date {
+  float: right;
+  margin-top: 5px;
+  text-align: right;
+  font-size: 0.5em;
+  line-height: 1.2;
+  font-weight: 400;
+}
+@media only screen and (max-width: 910px) {
+  .lists {
+    width: 100%;
+  }
+  .lists li {
+    width: 45%;
+    margin: 0 0 20px 3%;
+  }
+  .lists .img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .lists {
+    width: 100%;
+  }
+  .lists li {
+    width: 95%;
+    margin: 0 2.5% 20px;
+  }
+  .lists .img {
+    width: 100%;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait), only screen and (min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  .lists {
+    width: 100%;
+  }
+  .lists li {
+    width: 95%;
+    margin: 0 2.5% 20px;
+  }
+  .lists .img {
+    width: 100%;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape), only screen and (min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .lists,
+  width 100%,
+  li {
+    width: 95%;
+    margin: 0 2.5% 20px;
+  }
+  .img {
+    width: 100%;
+  }
+}
 footer {
   width: 100%;
   height: 4em;

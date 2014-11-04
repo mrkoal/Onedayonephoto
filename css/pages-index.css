@@ -423,9 +423,6 @@ body {
     width: 580px;
   }
 }
-.date {
-  float: right;
-}
 figcaption,
 article {
   width: 82%;
@@ -444,6 +441,7 @@ article p {
   margin-bottom: 0.42em;
 }
 .date {
+  float: right;
   text-align: right;
   font-size: 0.5em;
   line-height: 1.2;
