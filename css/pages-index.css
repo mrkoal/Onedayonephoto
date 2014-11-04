@@ -260,7 +260,8 @@ header {
   .options a {
     display: block;
   }
-  .options a:active {
+  .options a:active,
+  .options a.selected {
     background-color: #000;
   }
 }
@@ -325,7 +326,8 @@ header {
   .options a {
     display: block;
   }
-  .options a:active {
+  .options a:active,
+  .options a.selected {
     background-color: #000;
   }
 }
@@ -390,7 +392,8 @@ header {
   .options a {
     display: block;
   }
-  .options a:active {
+  .options a:active,
+  .options a.selected {
     background-color: #000;
   }
 }

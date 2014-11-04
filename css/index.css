@@ -260,7 +260,8 @@ header {
   .options a {
     display: block;
   }
-  .options a:active {
+  .options a:active,
+  .options a.selected {
     background-color: #000;
   }
 }
@@ -325,7 +326,8 @@ header {
   .options a {
     display: block;
   }
-  .options a:active {
+  .options a:active,
+  .options a.selected {
     background-color: #000;
   }
 }
@@ -390,61 +392,10 @@ header {
   .options a {
     display: block;
   }
-  .options a:active {
+  .options a:active,
+  .options a.selected {
     background-color: #000;
   }
-}
-body {
-  min-height: 100%;
-}
-.headlink {
-  width: 80%;
-  margin: 0 auto 0.1em;
-  padding-top: 1.18em;
-  line-height: 1.2;
-  font-size: 1.7em;
-  font-weight: 400;
-}
-.headlink a {
-  color: #000;
-}
-.img {
-  display: block;
-  width: 82%;
-  margin: 0 auto 1em;
-  border: 6px solid #fff;
-  box-shadow: 5px 5px 6px #666;
-}
-@media only screen and (min-width: 1024px) {
-  .img {
-    width: 580px;
-  }
-}
-.date {
-  float: right;
-}
-figcaption,
-article {
-  width: 82%;
-  margin: 0 auto;
-}
-article {
-  padding-bottom: 4em;
-}
-article p {
-  font-size: 1.4em;
-  line-height: 1.8em;
-  text-indent: 2em;
-}
-.title {
-  font-size: 2.4em;
-  margin-bottom: 0.42em;
-}
-.date {
-  text-align: right;
-  font-size: 0.5em;
-  line-height: 1.2;
-  font-weight: 400;
 }
 footer {
   width: 100%;
