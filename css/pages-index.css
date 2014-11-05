@@ -429,7 +429,7 @@ article {
   margin: 0 auto;
 }
 article {
-  padding-bottom: 4em;
+  padding-bottom: 10em;
 }
 article p {
   font-size: 1.4em;
@@ -446,6 +446,105 @@ article p {
   font-size: 0.5em;
   line-height: 1.2;
   font-weight: 400;
+}
+.commentform {
+  overflow: hidden;
+  width: 500px;
+  margin: 0 auto 20px;
+}
+.commentform .respond_title {
+  margin: 0 0 10px 25px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.commentform form p {
+  padding: 0;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  line-height: 25px;
+}
+.commentform input {
+  display: inline-block;
+  width: 250px;
+  padding: 5px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  line-height: normal;
+}
+.commentform textarea {
+  overflow: auto;
+  width: 450px;
+  height: 140px;
+  margin: 0 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  resize: none;
+}
+.commentform .submit {
+  position: relative;
+  bottom: auto;
+  width: 100px;
+  margin-bottom: 10px;
+  padding: 5px;
+  overflow: visible;
+  background-color: #eaedf5;
+  cursor: pointer;
+  box-shadow: 1px 1px #e7e7e7, 2px 2px #e7e7e7, 3px 3px #e7e7e7;
+  font-size: 14px;
+  height: 20px;
+  box-sizing: content-box;
+}
+.commentlist {
+  width: 550px;
+  margin: 0 auto;
+  list-style: decimal outside;
+}
+.commentlist li {
+  margin: 15px 0 20px;
+  padding: 5px 5px 10px 10px;
+  border: 1px solid #ccc;
+  background-color: #e8e8e8;
+}
+.commentlist .comment_author {
+  font-size: 14px;
+  color: #666;
+}
+.commentlist .comment_author .say {
+  padding-left: 5px;
+  font-weight: 700;
+  color: #333;
+}
+.commentlist p {
+  padding: 12px 0;
+}
+.commentlist .child {
+  margin-left: 10px;
+}
+.commentlist .child li {
+  border: 0 none;
+  border-left: 1px solid #ccc;
+}
+.comment_data {
+  color: #999;
+}
+@media only screen and (max-width: 570px) {
+  .commentform {
+    width: 95%;
+  }
+  .commentform input,
+  .commentform textarea,
+  .commentform .submit {
+    width: 90%;
+    padding: 5px 4%;
+    margin: 0;
+  }
+  .commentform label {
+    display: block;
+  }
+  .commentlist {
+    width: 95%;
+  }
 }
 .footer {
   width: 100%;
