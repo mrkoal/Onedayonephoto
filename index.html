@@ -2,57 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <head>
-    <meta charset="UTF-8">
-    <title>湛江往事书吧【每日一图】</title>
+    <title>湛江往事书吧-每日一图</title>
     <meta content="width=device-width,user-scalable=no" name="viewport">
-    <meta name="Author" contect="koala">
-    <link rel="stylesheet" href="index.css">
+    <meta name="Author" contect="koala">  
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
     <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon114.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon57.png" />
-</head>
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon57.png" /><!-- 这2个link是另存为的icon需要拼去首页根目录http:// -->
+    <style>
+        body{background:url('bg.jpg') no-repeat;background-size:100%  100%}/* */
+    </style>
 </head>
 <body>
-
-    <h3 class="headlink">
-        <a href="http://j.map.baidu.com/WzN7v" target="_blank">百度地图坐标：110.368831,21.280628</a><!-- 修改点1.href里面是百度分享地址 2.百度地图坐标 -->
-    </h3>
-    <section>
-        <figure>
-            <a href="weixin://viewimage/http://speedztd.github.io/Onedayonephoto/2014-08-17/img/photo-hd.jpg"><!-- 修改点3.2014-08-17 日期 (此处为微信点击浏览hd大图) -->
-                <img class="img" src="img/photo.jpg" srcset="img/photo-hd.jpg 1224w,img/photo.jpg 1x,img/photo-hd.jpg 2x" alt="老街"><!-- 修改点4.可选alt 里面关于照片的描述 -->
-            </a>
-            <figcaption>
-                <h2 class="title">老街<!-- 修改点5.片种? -->
+    <div class="header">
+        <div class="container">
+            <a class="logo" href="">湛江往事书吧</a>
+            <div class="nav-but">
+                <span class="nav-bar"></span>
+            </div>
+            <div class="options">
+                <a class="selected" href="" target="_blank">湛江往事首页</a>
+                <a href="" target="_blank">每日一图</a>
+                <a href="" target="_blank">活动发布</a>
+                <a href="" target="_blank">活动回顾</a>
+                <a href="" target="_blank">本土文化</a>
+            </div>
+        </div>
+    </div>
+    <ul class="lists">
+        <li>
+            <a href="2014-08-17/index.html" target="_blank">
+                <img class="img" src="2014-08-17/photo.jpg" srcset="2014-08-17/photo-hd.jpg 910w" alt="老街">
+                <h1 class="title">
+                    大通街·巷子深深 
                     <span class="date">
-                        【每日一图】<br>
-                        2014年08月17日<!-- 修改点6.日期 -->
+                        图/周腾达<br> 
+                        文/李书歆
                     </span>
-                </h2>
-            </figcaption>
-        </figure>
-    </section>
-    <article>
-        <h1 class="title">
-            大通街·巷子深深<!-- 修改点7.标题 -->
-            <span class="date">
-                图/周腾达<br><!-- 修改点8.作者s -->
-                文/李书歆
-            </span>
-        </h1>  <!-- 修改点9.文章内容,每一段为1个 <p>...</P> -->
-        <p>
-            庭院深深深几许，杨柳堆烟，帘幕无重数。玉勒雕鞍游冶处，楼高不见章台路。雨横风狂三月暮，门掩黄昏，无计留春住。泪眼问花花不语，乱红飞过秋千去。
-        </p>
-        <p>
-            欧阳修笔下深深的庭院，锁住了一个女子的相思和愁绪。</p>
-        <p>
-            在我眼前的这条巷子，也似那首《蝶恋花》里的庭院一般幽深，更似戴望舒笔下的那条雨巷一般悠长。它是否也曾锁住几个女子的相思与深情，封存了一段不为人知的往事？那位丁香一样的，结着愁怨的姑娘，是否也曾撑着油纸伞，在此间彳亍，独自徘徊？或许，她正是从这里走出，走入了雨巷诗人的诗行里，走进了我们的课本中？
-        </p>
-        <p>
-            而今，我们正站在这巷口，眼见着这巷子在岁月里一点点老去，也许不知哪一天便会被当做危房拆除掉了。于是，我们决意追寻，希望能在那早已封尘的往事里，邂逅当年的丁香姑娘。
-        </p>
-    </article>
-    <footer>湛江往事书吧logo</footer>
+                </h1>
+                <p>庭院深深深几许，杨柳堆烟，帘幕无重数。玉勒雕鞍游冶处，楼高不见章台路。雨横风狂三月暮，门掩黄昏，无计留春住。泪眼问花花不语，乱红飞过秋千去。</p>
+            </a>
+        </li>
+        <li>
+            <a href="2014-08-17/index.html" target="_blank">
+                <img class="img" src="2014-08-17/photo.jpg" srcset="2014-08-17/photo-hd.jpg 910w" alt="老街">
+                <h1 class="title">
+                    大通街·巷子深深 
+                    <span class="date">
+                        图/周腾达<br> 
+                        文/李书歆
+                    </span>
+                </h1>
+                <p>庭院深深深几许，杨柳堆烟，帘幕无重数。玉勒雕鞍游冶处，楼高不见章台路。雨横风狂三月暮，门掩黄昏，无计留春住。泪眼问花花不语，乱红飞过秋千去。</p>
+                <p>庭院深深深几许，杨柳堆烟，帘幕无重数。玉勒雕鞍游冶处，楼高不见章台路。雨横风狂三月暮，门掩黄昏，无计留春住。泪眼问花花不语，乱红飞过秋千去。</p>
+            </a>
+        </li>
+        <li>
+            <a href="2014-08-17/index.html" target="_blank">
+                <img class="img" src="2014-08-17/photo.jpg" srcset="2014-08-17/photo-hd.jpg 910w" alt="老街">
+                <h1 class="title">
+                    大通街·巷子深深 
+                    <span class="date">
+                        图/周腾达<br> 
+                        文/李书歆
+                    </span>
+                </h1>
+            </a>
+        </li>
+        <li>
+            <a href="2014-08-17/index.html" target="_blank">
+                <img class="img" src="2014-08-17/photo.jpg" srcset="2014-08-17/photo-hd.jpg 910w" alt="老街">
+                <h1 class="title">
+                    大通街·巷子深深 
+                    <span class="date">
+                        图/周腾达<br> 
+                        文/李书歆
+                    </span>
+                </h1>
+            </a>
+        </li>
+
+    </ul>
+
+
+    <div class="footer">© 2014, 广州湾- 湛江往事</div>
 </body>
 <script>
 var imgUrl = "http://speedztd.github.io/Onedayonephoto/2014-08-17/img/photo.jpg";//修改点10.2014-08-17 日期,(此处为分享时显示的缩略图)
@@ -103,4 +136,5 @@ shareWeibo();
 });
 }, false);
 </script>
+<script src="js/nav.js"></script>
 </html>
